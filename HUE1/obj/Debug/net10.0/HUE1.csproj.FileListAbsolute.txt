@@ -1,0 +1,14 @@
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE1\bin\Debug\net10.0\HUE1.exe
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE1\bin\Debug\net10.0\HUE1.deps.json
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE1\bin\Debug\net10.0\HUE1.runtimeconfig.json
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE1\bin\Debug\net10.0\HUE1.dll
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE1\bin\Debug\net10.0\HUE1.pdb
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE1\obj\Debug\net10.0\HUE1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE1\obj\Debug\net10.0\HUE1.AssemblyInfoInputs.cache
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE1\obj\Debug\net10.0\HUE1.AssemblyInfo.cs
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE1\obj\Debug\net10.0\HUE1.csproj.CoreCompileInputs.cache
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE1\obj\Debug\net10.0\HUE1.dll
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE1\obj\Debug\net10.0\refint\HUE1.dll
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE1\obj\Debug\net10.0\HUE1.pdb
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE1\obj\Debug\net10.0\HUE1.genruntimeconfig.cache
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE1\obj\Debug\net10.0\ref\HUE1.dll
