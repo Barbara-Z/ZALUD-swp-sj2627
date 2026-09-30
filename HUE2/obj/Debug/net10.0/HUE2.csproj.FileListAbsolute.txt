@@ -12,3 +12,4 @@ C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE2\obj\Debug\net10.0\refint\HUE2.dll
 C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE2\obj\Debug\net10.0\HUE2.pdb
 C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE2\obj\Debug\net10.0\HUE2.genruntimeconfig.cache
 C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE2\obj\Debug\net10.0\ref\HUE2.dll
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE2\obj\Debug\net10.0\HUE2.sourcelink.json
