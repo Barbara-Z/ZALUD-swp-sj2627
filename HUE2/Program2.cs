@@ -59,7 +59,7 @@ public class Auto
     }
 }
 
-public class Program
+public class Program2
 {
     public static void Main()
     {
