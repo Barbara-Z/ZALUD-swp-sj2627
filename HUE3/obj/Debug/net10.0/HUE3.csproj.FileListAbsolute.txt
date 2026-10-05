@@ -1,0 +1,15 @@
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE3\bin\Debug\net10.0\HUE3.exe
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE3\bin\Debug\net10.0\HUE3.deps.json
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE3\bin\Debug\net10.0\HUE3.runtimeconfig.json
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE3\bin\Debug\net10.0\HUE3.dll
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE3\bin\Debug\net10.0\HUE3.pdb
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE3\obj\Debug\net10.0\HUE3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE3\obj\Debug\net10.0\HUE3.AssemblyInfoInputs.cache
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE3\obj\Debug\net10.0\HUE3.AssemblyInfo.cs
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE3\obj\Debug\net10.0\HUE3.csproj.CoreCompileInputs.cache
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE3\obj\Debug\net10.0\HUE3.sourcelink.json
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE3\obj\Debug\net10.0\HUE3.dll
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE3\obj\Debug\net10.0\refint\HUE3.dll
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE3\obj\Debug\net10.0\HUE3.pdb
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE3\obj\Debug\net10.0\HUE3.genruntimeconfig.cache
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE3\obj\Debug\net10.0\ref\HUE3.dll
