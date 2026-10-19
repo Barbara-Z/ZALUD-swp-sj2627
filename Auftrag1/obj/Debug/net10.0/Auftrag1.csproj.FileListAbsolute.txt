@@ -1,0 +1,15 @@
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\Auftrag1\bin\Debug\net10.0\Auftrag1.exe
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\Auftrag1\bin\Debug\net10.0\Auftrag1.deps.json
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\Auftrag1\bin\Debug\net10.0\Auftrag1.runtimeconfig.json
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\Auftrag1\bin\Debug\net10.0\Auftrag1.dll
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\Auftrag1\bin\Debug\net10.0\Auftrag1.pdb
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\Auftrag1\obj\Debug\net10.0\Auftrag1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\Auftrag1\obj\Debug\net10.0\Auftrag1.AssemblyInfoInputs.cache
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\Auftrag1\obj\Debug\net10.0\Auftrag1.AssemblyInfo.cs
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\Auftrag1\obj\Debug\net10.0\Auftrag1.csproj.CoreCompileInputs.cache
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\Auftrag1\obj\Debug\net10.0\Auftrag1.sourcelink.json
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\Auftrag1\obj\Debug\net10.0\Auftrag1.dll
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\Auftrag1\obj\Debug\net10.0\refint\Auftrag1.dll
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\Auftrag1\obj\Debug\net10.0\Auftrag1.pdb
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\Auftrag1\obj\Debug\net10.0\Auftrag1.genruntimeconfig.cache
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\Auftrag1\obj\Debug\net10.0\ref\Auftrag1.dll
