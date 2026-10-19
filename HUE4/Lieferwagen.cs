@@ -11,6 +11,6 @@ public class Lieferwagen : Transportmittel, IAutonomSteuerbar
 
     public void FahreAutonom(string ziel)
     {
-        Console.WriteLine($"\n{Name} fährt autonom zum Ziel: {ziel}.");
+        Console.WriteLine($"\n{Name} fährt autonom nach {ziel}.");
     }
 }

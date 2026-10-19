@@ -10,6 +10,6 @@ public class Drohne : Transportmittel, IAutonomSteuerbar
     }
     public void FahreAutonom(string ziel)
     {
-        Console.WriteLine($"{Name} fährt autonom zum Ziel: {ziel}.");
+        Console.WriteLine($"{Name} fliegt autonom nach {ziel}.");
     }
 }
