@@ -1,4 +1,4 @@
-public class Lieferwagen : Transportmittel
+public class Lieferwagen : Transportmittel, IAutonomSteuerbar
 {
     public Lieferwagen(string name) : base(name)
     {
@@ -8,4 +8,10 @@ public class Lieferwagen : Transportmittel
     {
         return "fährt auf der Straße.";
     }
+
+    public void FahreAutonom(string ziel)
+    {
+        Console.WriteLine($"\n{Name} fährt autonom zum Ziel: {ziel}.");
+    }
+
 }

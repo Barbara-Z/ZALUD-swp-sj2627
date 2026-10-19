@@ -16,5 +16,11 @@ public class Program1
         {
             tmittel.Vorstellen();
         }
+
+        IAutonomSteuerbar autonomerLieferwagen = (IAutonomSteuerbar)lieferwagen;
+        IAutonomSteuerbar autonomeDrohne = (IAutonomSteuerbar)drohne;
+
+        autonomerLieferwagen.FahreAutonom("Hauptbahnhof");
+        autonomeDrohne.FahreAutonom("Hauptbahnhof");
     }
 }
