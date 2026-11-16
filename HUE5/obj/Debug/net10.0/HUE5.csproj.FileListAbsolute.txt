@@ -1,0 +1,15 @@
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE5\bin\Debug\net10.0\HUE5.exe
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE5\bin\Debug\net10.0\HUE5.deps.json
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE5\bin\Debug\net10.0\HUE5.runtimeconfig.json
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE5\bin\Debug\net10.0\HUE5.dll
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE5\bin\Debug\net10.0\HUE5.pdb
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE5\obj\Debug\net10.0\HUE5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE5\obj\Debug\net10.0\HUE5.AssemblyInfoInputs.cache
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE5\obj\Debug\net10.0\HUE5.AssemblyInfo.cs
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE5\obj\Debug\net10.0\HUE5.csproj.CoreCompileInputs.cache
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE5\obj\Debug\net10.0\HUE5.sourcelink.json
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE5\obj\Debug\net10.0\HUE5.dll
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE5\obj\Debug\net10.0\refint\HUE5.dll
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE5\obj\Debug\net10.0\HUE5.pdb
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE5\obj\Debug\net10.0\HUE5.genruntimeconfig.cache
+C:\Users\Barbara\swp2627\ZALUD-swp-sj2627\HUE5\obj\Debug\net10.0\ref\HUE5.dll
