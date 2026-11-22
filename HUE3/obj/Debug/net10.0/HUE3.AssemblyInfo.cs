@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HUE3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0dc5f00e6a02f2bfd19fcc616281a03223c4495")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3e4a5bf1c4eefcca625de74d605fa2bf4a8b703")]
 [assembly: System.Reflection.AssemblyProductAttribute("HUE3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HUE3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
