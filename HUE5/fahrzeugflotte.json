@@ -1,0 +1,22 @@
+[
+  {
+    "Typ": "Fahrrad",
+    "Name": "Citybike"
+  },
+  {
+    "Typ": "Lieferwagen",
+    "Name": "E-Transporter"
+  },
+  {
+    "Typ": "Drohne",
+    "Name": "Drohne"
+  },
+  {
+    "Typ": "AutonomesTaxi",
+    "Name": "Autonomes Taxi"
+  },
+  {
+    "Typ": "Drohne",
+    "Name": "Drohne 2"
+  }
+]

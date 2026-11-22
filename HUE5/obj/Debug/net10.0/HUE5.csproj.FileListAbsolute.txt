@@ -18,3 +18,8 @@ C:\Users\Barbara\.copilot\session-state\be749cf2-6131-4fc6-9a53-57ddf11319a2\fil
 C:\Users\Barbara\.copilot\session-state\be749cf2-6131-4fc6-9a53-57ddf11319a2\files\hue5-build-check\HUE5.runtimeconfig.json
 C:\Users\Barbara\.copilot\session-state\be749cf2-6131-4fc6-9a53-57ddf11319a2\files\hue5-build-check\HUE5.dll
 C:\Users\Barbara\.copilot\session-state\be749cf2-6131-4fc6-9a53-57ddf11319a2\files\hue5-build-check\HUE5.pdb
+C:\Users\Barbara\.copilot\session-state\be749cf2-6131-4fc6-9a53-57ddf11319a2\files\hue5-save-check\HUE5.exe
+C:\Users\Barbara\.copilot\session-state\be749cf2-6131-4fc6-9a53-57ddf11319a2\files\hue5-save-check\HUE5.deps.json
+C:\Users\Barbara\.copilot\session-state\be749cf2-6131-4fc6-9a53-57ddf11319a2\files\hue5-save-check\HUE5.runtimeconfig.json
+C:\Users\Barbara\.copilot\session-state\be749cf2-6131-4fc6-9a53-57ddf11319a2\files\hue5-save-check\HUE5.dll
+C:\Users\Barbara\.copilot\session-state\be749cf2-6131-4fc6-9a53-57ddf11319a2\files\hue5-save-check\HUE5.pdb

@@ -44,6 +44,8 @@ public class Program
             Console.WriteLine("Menü:");
             Console.WriteLine("1. Fahrzeug hinzufügen");
             Console.WriteLine("2. Flotte anzeigen");
+            Console.WriteLine("3. Flotte speichern");
+            Console.WriteLine("4. Flotte laden");
             Console.WriteLine("0. Beenden");
             auswahl = Console.ReadLine() ?? string.Empty;
 
@@ -88,6 +90,14 @@ public class Program
                     }
                     break;
 
+                case "3":
+                    FlotteSpeichern(flotte);
+                    break;
+
+                case "4":
+
+                    break;
+
                 case "0":
                     return;
 
@@ -98,13 +108,37 @@ public class Program
         }
         while (auswahl != "0");
     }
+
+    public static void FlotteSpeichern(List<Transportmittel> flotte)
+    {
+        // Jedes Fahrzeug wird in einen Datensatz mit Typ und Name umgewandelt.
+        List<TransportmittelDatensatz> datensaetze = new List<TransportmittelDatensatz>();
+        foreach (Transportmittel fahrzeug in flotte)
+        {
+            datensaetze.Add(TransportmittelFactory.ErzeugeDatensatz(fahrzeug));
+        }
+
+        // WriteIndented formatiert das JSON für bessere Lesbarkeit.
+        JsonSerializerOptions optionen = new JsonSerializerOptions
+        {
+            WriteIndented = true
+        };
+        string json = JsonSerializer.Serialize(datensaetze, optionen);
+
+        // Die Datei wird im aktuellen Arbeitsverzeichnis erstellt oder überschrieben.
+        string dateipfad = "fahrzeugflotte.json";
+        File.WriteAllText(dateipfad, json);
+
+        // Der vollständige Pfad zeigt an, wo die Datei gespeichert wurde.
+        Console.WriteLine($"Flotte gespeichert: {Path.GetFullPath(dateipfad)}");
+    }
 }
 
 /*
 Pseudocode:
 
 DO
-    Menü anzeigen: 1 Hinzufügen, 2 Flotte anzeigen, 0 Beenden
+ 
     auswahl = Console.ReadLine()
 
     SWITCH (auswahl)
