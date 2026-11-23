@@ -2,9 +2,11 @@ using System.Text.Json;
 
 public class Program
 {
+    private const string DateipfadFlotte = "fahrzeugflotte.json";
+
     public static void Main()
     {
-        TransportmittelDatensatz datensatz = new TransportmittelDatensatz
+        /*TransportmittelDatensatz datensatz = new TransportmittelDatensatz
         {
             Typ = "Drohne",
             Name = "Drohne A"
@@ -25,18 +27,13 @@ public class Program
             JsonSerializer.Deserialize<TransportmittelDatensatz>(json); //JSON String in Objekt umwandeln
         Console.WriteLine($"Typ: {deserialisierterDatensatz?.Typ}"); //Null-Conditional Operator (?.) prüft, ob deserialisierterDatensatz null ist, bevor auf Typ zugegriffen wird
         Console.WriteLine($"Name: {deserialisierterDatensatz?.Name}");
+        */
 
-        Transportmittel lieferwagen = new Lieferwagen("E-Transporter");
-        Transportmittel drohne = new Drohne("Drohne");
-        Transportmittel taxi = new AutonomesTaxi("Autonomes Taxi");
-
-        List<Transportmittel> flotte = new List<Transportmittel>
+        List<Transportmittel> flotte = new List<Transportmittel>();
+        if (File.Exists(DateipfadFlotte))
         {
-            new Fahrrad("Citybike"),
-            lieferwagen,
-            drohne,
-            taxi
-        };
+            FlotteLaden(flotte);
+        }
 
         string auswahl;
         do
@@ -95,7 +92,7 @@ public class Program
                     break;
 
                 case "4":
-
+                    FlotteLaden(flotte);
                     break;
 
                 case "0":
@@ -126,11 +123,88 @@ public class Program
         string json = JsonSerializer.Serialize(datensaetze, optionen);
 
         // Die Datei wird im aktuellen Arbeitsverzeichnis erstellt oder überschrieben.
-        string dateipfad = "fahrzeugflotte.json";
-        File.WriteAllText(dateipfad, json);
+        try
+        {
+            File.WriteAllText(DateipfadFlotte, json);
+        }
+        catch (IOException exception)
+        {
+            Console.WriteLine($"Datei konnte nicht gespeichert werden: {exception.Message}");
+            return;
+        }
 
         // Der vollständige Pfad zeigt an, wo die Datei gespeichert wurde.
-        Console.WriteLine($"Flotte gespeichert: {Path.GetFullPath(dateipfad)}");
+        Console.WriteLine($"Flotte gespeichert: {Path.GetFullPath(DateipfadFlotte)}");
+    }
+
+    public static void FlotteLaden(List<Transportmittel> flotte)
+    {
+        if (!File.Exists(DateipfadFlotte))
+        {
+            Console.WriteLine("Datei nicht gefunden.");
+            return;
+        }
+
+        string json;
+        try
+        {
+            json = File.ReadAllText(DateipfadFlotte);
+        }
+        catch (IOException exception)
+        {
+            Console.WriteLine($"Datei konnte nicht gelesen werden: {exception.Message}");
+            return;
+        }
+
+        // JSON wird zuerst in Datensätze eingelesen; bei ungültigem JSON bleibt die Flotte unverändert.
+        List<TransportmittelDatensatz>? datensaetze;
+        try
+        {
+            datensaetze = JsonSerializer.Deserialize<List<TransportmittelDatensatz>>(json);
+        }
+        catch (JsonException exception)
+        {
+            Console.WriteLine($"Ungültiges JSON: {exception.Message}");
+            return;
+        }
+
+        if (datensaetze is null)
+        {
+            Console.WriteLine("Keine Fahrzeugliste gefunden.");
+            return;
+        }
+
+        // Fahrzeuge zunächst separat erzeugen, damit fehlerhafte Datensätze die bestehende Flotte nicht verändern.
+        List<Transportmittel> neueFlotte = new List<Transportmittel>();
+        foreach (TransportmittelDatensatz? datensatz in datensaetze)
+        {
+            if (datensatz is null)
+            {
+                Console.WriteLine("Leerer Datensatz wurde übersprungen.");
+                continue;
+            }
+
+            if (string.IsNullOrWhiteSpace(datensatz.Name))
+            {
+                Console.WriteLine($"Datensatz vom Typ '{datensatz.Typ}' hat keinen Namen und wurde übersprungen.");
+                continue;
+            }
+
+            try
+            {
+                neueFlotte.Add(TransportmittelFactory.Erzeuge(datensatz.Typ, datensatz.Name));
+            }
+            catch (ArgumentException)
+            {
+                Console.WriteLine($"Unbekannter Typ '{datensatz.Typ}', Datensatz wurde übersprungen.");
+            }
+        }
+
+        // Erst nach erfolgreicher Umwandlung wird die bestehende Flotte ersetzt.
+        flotte.Clear();
+        flotte.AddRange(neueFlotte);
+
+        Console.WriteLine($"Geladen: {neueFlotte.Count} Fahrzeuge.");
     }
 }
 

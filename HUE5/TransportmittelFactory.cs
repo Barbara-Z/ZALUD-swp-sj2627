@@ -11,7 +11,7 @@ public static class TransportmittelFactory
             "Drohne" => new Drohne(name),
             "AutonomesTaxi" => new AutonomesTaxi(name),
             // _ steht für alle nicht aufgeführten Typen; throw bricht mit einer aussagekräftigen Ausnahme ab.
-            _ => throw new ArgumentException($"Unbekannter Fahrzeugtyp: {typ}", nameof(typ))
+            _ => throw new ArgumentException($"Unbekannter Fahrzeugtyp: {typ}", nameof(typ)) // nameof liefert den Namen des Parameters, der die Ausnahme ausgelöst hat.
         };
     }
 
