@@ -96,6 +96,12 @@ public class Program
                     break;
 
                 case "0":
+                    Console.Write("Flotte vor dem Beenden speichern? (ja/nein): ");
+                    string speichern = Console.ReadLine() ?? string.Empty;
+                    if (speichern.Equals("ja", StringComparison.OrdinalIgnoreCase))
+                    {
+                        FlotteSpeichern(flotte);
+                    }
                     return;
 
                 default:

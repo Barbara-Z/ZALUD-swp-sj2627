@@ -1,11 +1,11 @@
 [
   {
     "Typ": "Fahrrad",
-    "Name": "Citybike"
+    "Name": "Fahrrad"
   },
   {
     "Typ": "Lieferwagen",
-    "Name": "E-Transporter"
+    "Name": "Lieferwagen"
   },
   {
     "Typ": "Drohne",
@@ -14,9 +14,5 @@
   {
     "Typ": "AutonomesTaxi",
     "Name": "Autonomes Taxi"
-  },
-  {
-    "Typ": "Fahrrad",
-    "Name": "Fahrrad 2"
   }
 ]
